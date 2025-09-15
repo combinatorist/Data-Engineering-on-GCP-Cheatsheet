@@ -521,7 +521,7 @@
     - Avoid self-joins., use window functions (perform calculations across many table rows related to current row)\\
     - Partition/Skew: avoid unequally sized partitions, or when a value occurs more often than any other value\\
     - Cross-Join: avoid joins that generate more outputs than inputs (pre-aggregate data or use window function)\\
-    Update/Insert Single Row/Column: avoid point-specific DML, instead batch updates and inserts\\
+    - Update/Insert Single Row/Column: avoid point-specific DML, instead batch updates and inserts\\
     
     \textbf{Managing Query Outputs}\\
     - Avoid repeated joins and using the same subqueries\\
