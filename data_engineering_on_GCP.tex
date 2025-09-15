@@ -518,7 +518,7 @@
     - Avoid excessive wildcard tables\\
     
     \textbf{SQL Anti-Patterns}\\
-    - Avoid self-joins., use window functions (perform calculations across many table rows related to current row)\\
+    - Avoid self-joins. Use window functions (perform calculations across many table rows related to current row)\\
     - Partition/Skew: avoid unequally sized partitions, or when a value occurs more often than any other value\\
     - Cross-Join: avoid joins that generate more outputs than inputs (pre-aggregate data or use window function)\\
     - Update/Insert Single Row/Column: avoid point-specific DML, instead batch updates and inserts\\
@@ -877,7 +877,7 @@
         \item Data can then be queried from BigQuery and predictive analysis can begin (using ML Engine, etc..) 
 	\end{enumerate}   	 
     \includegraphics[width=\textwidth]{Figures/flowlogistic_sol.png}
-    \textbf{\textit{Note}}: All services are fully managed., easily scalable, and can handle streaming/batch data. All technical requirements are met.
+    \textbf{\textit{Note}}: All services are fully managed, easily scalable, and can handle streaming/batch data. All technical requirements are met.
 
     \end{minipage}
 };
